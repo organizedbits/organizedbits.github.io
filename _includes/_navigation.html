@@ -7,11 +7,14 @@
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
+
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
-    </li>
-       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+        <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon">
+          <a href="#"><span></span></a>
+      </li>
     </ul>
     <section class="top-bar-section">
 {% comment %}
@@ -79,6 +82,12 @@
 
 {% endcomment %}
       <ul class="left">
+
+        <!-- TODO: Fix hard coded logo and style -->
+        <a id="logoFIX" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/obits-logo.png" style="margin-left: 20px;" alt="{{ site.title }} – {{ site.slogan }}" />
+        </a>
+
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
