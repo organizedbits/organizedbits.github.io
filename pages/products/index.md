@@ -5,7 +5,7 @@ title: "Products"
 subheadline: "subheadline"
 teaser: "teaser"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "puzzle.jpg"
 permalink: "/products/"
 ---
 

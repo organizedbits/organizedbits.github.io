@@ -5,7 +5,7 @@ title: "About"
 subheadline: "subheadline"
 teaser: "teaser"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "space-shuttle.jpg"
 permalink: "/about/"
 ---
 
