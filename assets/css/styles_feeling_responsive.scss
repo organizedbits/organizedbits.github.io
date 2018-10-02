@@ -47,3 +47,17 @@ sitemap:
 {% endif %}
 
 @import "11_syntax-highlighting.scss";
+
+// TODO: I am not sure this should go here.
+// But I want to override the Foundation Top-Bar class
+// THIS CSS Breaks the responsiveness of the menu
+// .top-bar {
+//  border-top: 5px solid #7EA6D1;
+//  height: auto;
+//  //padding-right: 50px;
+// }
+
+// .top-bar-section ul li > a {
+//   border-right: 1px solid #EBEBEB;
+//   color: #747474;
+// }
