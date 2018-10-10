@@ -1,27 +1,27 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: https://github.com/organizedbits
   class: icon-github
-  title: Code und mehr...
-
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+  title: Code and more
 
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: https://twitter.com/OrganizedBits
   class: icon-twitter
   title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: YouTube
+  url: https://www.youtube.com/channel/UCNdxenCaVrAEtXd03VQVJcg
+  class: icon-youtube
+  title: "Organized Bits video tutorials on YouTube"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
+
+- name: Organized Bits Google+
+  url: https://plus.google.com/u/0/107249267108392496409
   class: icon-googleplus
-  title: "YouTube Google+"
+  title: "Google+"
 
 # - name: Facebook
 #   url: http://www.facebook.com/

@@ -6,6 +6,8 @@ subheadline: ""
 teaser: ""
 header:
    image_fullwidth: "space-shuttle.jpg"
+   title: "OUR MISSION"
+   subtitle: "SIMPLIFY COMPLEXITY"
 permalink: "/about/"
 ---
 

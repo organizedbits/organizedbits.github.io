@@ -7,6 +7,8 @@
 layout: frontpage
 header:
   image_fullwidth: gears2.jpg
+  title: "SOFTWARE INTEGRATION SIMPLIFIED"
+  subtitle: "We are on a mission to make integrating with your CRM more efficient, cost effective, and easier."
 widget1:
   title: "Blog & Portfolio"
   url: 'http://phlow.github.io/feeling-responsive/blog/'

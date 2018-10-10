@@ -1,11 +1,13 @@
 ---
 layout: page-fullwidth
 show_meta: false
-title: "Products"
+title: ""
 subheadline: ""
 teaser: ""
 header:
    image_fullwidth: "puzzle.jpg"
+   title: "OUR PRODUCTS"
+   subtitle: "HELP PUT THE PIECES TOGETHER"
 permalink: "/products/"
 ---
 

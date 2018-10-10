@@ -6,6 +6,8 @@ subheadline: ""
 teaser: ""
 header:
    image_fullwidth: "contact.jpg"
+   title: "CONTACT US"
+   subtitle: "WE&apos;RE HERE TO HELP"
 permalink: "/contact/"
 ---
 
