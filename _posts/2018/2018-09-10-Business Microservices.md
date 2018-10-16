@@ -6,9 +6,13 @@ teaser: "Teaser"
 meta_teaser: "meta teaser"
 breadcrumb: false
 categories:
-    - design
+    - architecture
+    - integration
 tags:
     - blog
+    - content
+    - post
+    - post format
 image:
     title: gallery-example-1.jpg
     caption: Unsplash.com
@@ -17,7 +21,7 @@ author: Eddie Brady
 ---
 
 What we do
-Organized Bits builds business microservices.  The microservices are all integrated using OpenID Connect.  In our case we�re using Identity Server 4.  A few points regarding the microservices.
+Organized Bits builds business microservices.  The microservices are all integrated using OpenID Connect.  In our case we&apos;re using Identity Server 4.  A few points regarding the microservices.
 
 1)	The business microservices can achieve SSO by implementing OpenID Connect.
 2)	The business microservice APIs can be secured using OAuth 2.  APIs create a public facing abstraction layer for the Organization which allows them to communicate with 3rd party partners in secure way.  That security governed and controlled by the Organization itself.  It is where the Organizations business logic resides.  Further, this abstraction layer decouples 3rd party integrations from the internal systems that operate the business.  This decoupling is important as it allows an Organization to remain agile.
@@ -35,9 +39,9 @@ Benefits of Microservices
 
 Benefits of OpenID Connect
                 Industry standard protocol. 
-                                It�s built by security experts to be a secure protocol, as opposed to a �custom built, proprietary protocol� built by non-security experts.
+                                It&apos;s built by security experts to be a secure protocol, as opposed to a �custom built, proprietary protocol� built by non-security experts.
 Many systems already use OpenID Connect (Drupal, WordPress, Dynamics CRM, etc�) and these systems become plug and play.  Conversly, a custom protocol would require custom programming to integrate all applications together.
-                                I have been told by the iMIS product owners that ASI has OpenID Connect support on their roadmap in order to provide a better integration story.  We�re ahead of them.
+                                I have been told by the iMIS product owners that ASI has OpenID Connect support on their roadmap in order to provide a better integration story.  We&apos;re ahead of them.
 
                 Connecting OpenID Connect applications via SSO becomes a matter of registering the application in Identity Server.  It is simply a �registration process�.
 
@@ -68,7 +72,7 @@ Hardware and software are a means to an end.  An Organization only cares about h
 
 Hardware has evolved to the point where it is now a commodity, available at your fingertips.  The cloud is awesome.
 
-Software has a ways to go but we�re moving in the right direction.  One day, I think soon, software will become a plug and play commodity as well, where integration happen automatically as a result of standard protocols.  We�ve seen software development go from everything needing to be custom built to a point where there are mature products like CRMs and CMSs that can achieve so much without any programming at all.  We�re now in an era where the need is more to integrate systems rather than build them from scratch.  Of course, there is still a need at times for custom software but that need is becoming less and less as SaaS applications mature and proliferate.  Most of the time it is better to go SaaS than custom built.  
+Software has a ways to go but we&apos;re moving in the right direction.  One day, I think soon, software will become a plug and play commodity as well, where integration happen automatically as a result of standard protocols.  We�ve seen software development go from everything needing to be custom built to a point where there are mature products like CRMs and CMSs that can achieve so much without any programming at all.  We&apos;re now in an era where the need is more to integrate systems rather than build them from scratch.  Of course, there is still a need at times for custom software but that need is becoming less and less as SaaS applications mature and proliferate.  Most of the time it is better to go SaaS than custom built.  
 
 So the need now is not custom software development but instead integration.  So when we start looking at integration then we start looking at standard protocols.  For instance, OpenID Connect allows systems to achieve SSO by a simple registration process.  Business logic is exposed between systems via APIs  using REST or GraphQL and secured by OAuth 2.
 

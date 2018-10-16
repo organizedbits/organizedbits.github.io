@@ -6,9 +6,13 @@ teaser: "Mobile apps and external javascript apps are not currently supported by
 meta_teaser: "meta teaser"
 breadcrumb: false
 categories:
-    - design
+    - SSO
+    - iMIS
 tags:
     - blog
+    - content
+    - post
+    - post format
 image:
     title: gallery-example-1.jpg
     caption: Unsplash.com
