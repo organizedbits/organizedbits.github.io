@@ -8,7 +8,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <h1 class="show-for-small-only">
+        <h1>
           <!-- <a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a> -->
           <!-- TODO: Fix hard coded logo and style -->
           <a id="logoFIX" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
@@ -88,10 +88,7 @@
 {% endcomment %}
       <ul class="left">
 
-        <!-- TODO: Fix hard coded logo and style -->
-        <a id="logoFIX" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/obits-logo.png" style="margin-left: 20px;" alt="{{ site.title }} – {{ site.slogan }}" />
-        </a>
+
 
         {% for link in site.data.navigation %}
 

@@ -2,7 +2,7 @@
 layout: page
 subheadline: 
 title:  "Business Microservices"
-teaser: "Teaser"
+teaser: "Business microservices are a powerful technique to use for building integrations."
 meta_teaser: "meta teaser"
 breadcrumb: false
 categories:

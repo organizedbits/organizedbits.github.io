@@ -86,6 +86,11 @@ body.video cite { color: #fff; }
 #masthead-no-image-header #logo img {
     margin-top: 60px;
 }
+.masthead-landing {
+    padding: 250px 0 !important;
+    height: 1300px !important;
+    background-size: cover !important
+}
 
 /* Masthead › small-only
 ------------------------------------------------------------------- */
@@ -111,6 +116,11 @@ body.video cite { color: #fff; }
     #masthead-no-image-header {
         display: none;
     }
+    .masthead-landing {
+        padding: 250px 0;
+        height: 1300px;
+        background-size: cover !important
+    }
 }
 
 
@@ -133,6 +143,11 @@ body.video cite { color: #fff; }
     #masthead-with-text {
         padding: 60px 0;
         height: 300px;
+    }
+    .masthead-landing {
+        padding: 250px 0;
+        height: 1300px;
+        background-size: cover !important
     }
 }
 
@@ -157,6 +172,11 @@ body.video cite { color: #fff; }
         height: 330px;
         padding: 60px 0;
     }
+    .masthead-landing {
+        padding: 250px 0;
+        height: 1300px;
+        background-size: cover !important
+    }
 }
 
 
@@ -179,6 +199,11 @@ body.video cite { color: #fff; }
     #masthead-with-text {
         padding: 95px 0;
         height: 400px;
+    }
+    .masthead-landing {
+        padding: 250px 0;
+        height: 1300px;
+        background-size: cover !important
     }
 }
 
