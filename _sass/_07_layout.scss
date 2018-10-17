@@ -74,8 +74,9 @@ body.video cite { color: #fff; }
 }
 #masthead-with-text {
     text-align: center;
-    font-size: rem-calc(74);
+    font-size: rem-calc(70);
     font-family: $header-font-family;
+    font-weight: bold;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
@@ -90,6 +91,9 @@ body.video cite { color: #fff; }
     padding: 250px 0 !important;
     height: 1300px !important;
     background-size: cover !important
+}
+.masthead-subtitle {
+    font-size: rem-calc(25);
 }
 
 /* Masthead › small-only
