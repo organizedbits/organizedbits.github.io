@@ -1,0 +1,28 @@
+- title: "Products"
+  url: "/products/"
+  side: right
+  dropdown:
+  - title: "iMIS Identity Server"
+    url: "/products/imisidentityserver/"
+  - title: "iMIS App Exchange"
+    url: "/products/imisappexchange/"
+
+- title: "Services"
+  url: "/services/"
+  side: right
+
+- title: "About"
+  url: "/about/"
+  side: right
+
+- title: Blog
+  url: "/blog/"
+  side: right
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
+  

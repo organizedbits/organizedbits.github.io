@@ -1,0 +1,99 @@
+---
+# Only the main Sass file needs front matter, rest is included from site.sass.sass_dir
+sitemap:
+  exclude: true
+---
+@charset "utf-8";
+
+@import "functions.scss";
+@import "01_settings_colors.scss";
+@import "02_settings_typography.scss";
+@import "03_settings_mixins_media_queries.scss";
+@import "04_settings_global.scss";
+@import "05_normalize.scss"; // normalize.css v3.0.2
+
+// @import "foundation-components/top-bar";
+@import "foundation-components/accordion";
+@import "foundation-components/alert-boxes";
+@import "foundation-components/breadcrumbs";
+@import "foundation-components/block-grid";
+@import "foundation-components/button-groups";
+@import "foundation-components/buttons";
+@import "foundation-components/clearing";
+@import "foundation-components/dropdown";
+@import "foundation-components/dropdown-buttons";
+@import "foundation-components/flex-video";
+@import "foundation-components/forms";
+@import "foundation-components/grid";
+@import "foundation-components/inline-lists";
+@import "foundation-components/keystrokes";
+@import "foundation-components/panels";
+@import "foundation-components/pricing-tables";
+@import "foundation-components/reveal";
+@import "foundation-components/side-nav";
+@import "foundation-components/sub-nav";
+@import "foundation-components/tables";
+@import "foundation-components/thumbs";
+@import "foundation-components/top-bar";
+@import "foundation-components/type";
+@import "foundation-components/visibility";
+
+@import "06_typography.scss";
+@import "07_layout.scss";
+@import "foundation-components/grid";
+@import "09_elements.scss";
+
+{% if site.asciidoctor-enabled == true %}
+@import "10_asciidoc.scss";
+{% endif %}
+
+@import "11_syntax-highlighting.scss";
+
+// TODO: I am not sure this custom css should go here.
+// But I want to override the Foundation Top-Bar class
+// THIS CSS Breaks the responsiveness of the menu
+// .top-bar {
+//  border-top: 5px solid #7EA6D1;
+//  height: auto;
+//  //padding-right: 50px;
+// }
+
+// .top-bar-section ul li > a {
+//   // border-right: 1px solid #EBEBEB;
+//   // color: #747474;
+//   // text-transform: none
+// }
+
+.top-bar-section .dropdown li a {
+  text-transform: none;
+}
+
+.sticky {
+  border-top: 5px solid #7EA6D1;
+}
+
+.full-width {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 200px;
+}
+
+.full-width-even {
+  //background-color: rgb(255, 255, 255);
+}
+
+.full-width-odd {
+  background-color: rgb(206, 206, 206);
+}
+
+.content {
+  //position: absolute;
+  //background-color: rgb(177, 177, 20);
+  margin: 0 20%;
+  padding: 2% 2%;
+  height: 200px;
+}

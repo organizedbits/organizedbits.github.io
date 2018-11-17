@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color:       	#111;
+$body-font-color: 	$text-color;
+$body-bg: 			#fdfdfd;
+
+
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+$ci-1: #7EA6D1;
+$ci-2: #45B29D;
+$ci-3: #EFC94C;
+$ci-4: #E27A3F;
+$ci-5: #7EA6D1;
+$ci-6: #A1D044;
+
+
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color: $ci-1;
+$secondary-color: $ci-6;
+$alert-color: $ci-5;
+$success-color: $ci-6;
+$warning-color: $ci-4;
+$info-color: $ci-1;
+
+
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$grey-1: #E4E4E4;
+$grey-2: #D7D7D7;
+$grey-3: #CBCBCB;
+$grey-4: #BEBEBE;
+$grey-5: #A4A4A4;
+$grey-6: #979797;
+$grey-7: #8B8B8B;
+$grey-8: #7E7E7E;
+$grey-9: #646464;
+$grey-10: #575757;
+$grey-11: #4B4B4B;
+$grey-12: #3E3E3E;
+$grey-13: #313131;
+$grey-14: #242424;
+$grey-15: #171717;
+$grey-16: #0B0B0B;
+
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+// $topbar-bg-color: $body-bg;
+$topbar-bg-color: rgba(0, 0, 0, 0.9);
+$topbar-bg: rgba(0, 0, 0, 1);
+
+$topbar-dropdown-toggle-color: #ffffff;
+
+$topbar-link-color: #ffffff;
+$topbar-link-color-hover:#ffffff;
+$topbar-link-color-active: #ffffff;
+$topbar-link-color-active-hover: #7EA6D1;
+
+$topbar-dropdown-label-color: #ffffff;
+$topbar-dropdown-link-bg-hover: #7EA6D1;
+
+$topbar-link-bg-active: #7EA6D1; // Active Navigation Link
+$topbar-link-bg-hover: #7EA6D1;
+$topbar-link-bg-active-hover: #7EA6D1;
+
+$topbar-dropdown-bg: rgba(0, 0, 0, 0.9);; // Background Mobile Navigation
+$topbar-dropdown-link-color: #ffffff;
+$topbar-dropdown-link-bg: black;
+
+$topbar-menu-link-color-toggled: #ffffff;
+$topbar-menu-icon-color-toggled: #ffffff;
+$topbar-menu-link-color: #ffffff;
+$topbar-menu-icon-color: #ffffff;
+$topbar-menu-link-color-toggled: #7EA6D1;
+$topbar-menu-icon-color-toggled: #7EA6D1;
+
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg: #7EA6D1;
+$footer-color: #ffffff;
+$footer-link-color: #ffffff;
+
+
+$subfooter-bg: #222121;
+$subfooter-color: #7EA6D1;
+$subfooter-link-color: #7EA6D1;
+
+
+
+/* Code
+------------------------------------------------------------------- */
+
+$code-background-color: scale-color($secondary-color, $lightness: 70%);
+
+$highlight-background: #ffffff;
+$highlight-comment: #999988;
+$highlight-error: #a61717;
+$highlight-comment-special: #999999;
+$highlight-deleted: #000000;
+$highlight-error-2: #aa0000;
+$highlight-literal-string: #d14;
+$highlight-literal-number: #009999;
+$highlight-name-attribut: #008080;
+$highlight-error-background: #e3d2d2;
+$highlight-generic-deleted: #ffdddd;
+$highlight-generic-deleted-specific: #ffaaaa;
+$highlight-generic-inserted: #ddffdd;
+$highlight-generic-inserted-specific: #aaffaa;
+$highlight-generic-output: #888888;
+$highlight-generic-prompt: #555555;
+$highlight-subheading: #aaaaaa;
+$highlight-keyword-type: #445588;
+$highlight-name-builtin: #0086B3;
+$highlight-name-class: #445588;
+$highlight-name-entity: #800080;
+$highlight-name-exception: #990000;
+$highlight-name-function: #990000;
+$highlight-name-namespace: #555555;
+$highlight-name-tag: #000080;
+$highlight-text-whitespace: #bbbbbb;
+$highlight-literal-string-regex: #009926;
+$highlight-literal-string-symbol: #990073;
