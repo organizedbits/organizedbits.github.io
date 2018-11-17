@@ -11,20 +11,20 @@ permalink: "/products/imisappexchange"
 <div class="row t30">
   <div class="medium-12 columns">
     What
-  </div><!-- /.medium-4.columns -->
-</div><!-- /.row -->
+  </div>
+</div>
 
 <div class="row t30">
   <div class="medium-12 columns">
     Why
-  </div><!-- /.medium-4.columns -->
-</div><!-- /.row -->
+  </div>
+</div>
 
 <div class="row t30">
   <div class="medium-12 columns">
     How
-  </div><!-- /.medium-4.columns -->
-</div><!-- /.row -->
+  </div>
+</div>
 
 <div class="row t30">
     <div class="medium-4 columns">

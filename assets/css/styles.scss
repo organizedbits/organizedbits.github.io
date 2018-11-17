@@ -71,3 +71,29 @@ sitemap:
 .sticky {
   border-top: 5px solid #7EA6D1;
 }
+
+.full-width {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 200px;
+}
+
+.full-width-even {
+  //background-color: rgb(255, 255, 255);
+}
+
+.full-width-odd {
+  background-color: rgb(206, 206, 206);
+}
+
+.content {
+  //position: absolute;
+  //background-color: rgb(177, 177, 20);
+  margin: 0 20%;
+  padding: 2% 2%;
+  height: 200px;
+}

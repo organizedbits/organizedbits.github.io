@@ -95,11 +95,16 @@ Open Source products
 
 The solution to these challenges lies in OpenID Connect and microservices!
 
-<pre class="highlight">
-    <code>
-        public void method()
-        {
-        
-        }
-    </code>
-</pre>
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+{% highlight csharp %}
+
+public string testfunction()
+{
+    var test = "test";
+}
+{% endhighlight %}
