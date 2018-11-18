@@ -64,6 +64,14 @@ sitemap:
 //   // text-transform: none
 // }
 
+.top-bar {
+  // padding-left: 45px;
+}
+
+.top-bar-section {
+  // margin-right: 45px;
+}
+
 .top-bar-section .dropdown li a {
   text-transform: none;
 }
@@ -96,4 +104,16 @@ sitemap:
   margin: 0 20%;
   padding: 2% 2%;
   height: 200px;
+}
+
+.product-title {
+  text-align: center;
+}
+.product-image {
+  width: 341px;
+  height: 229px;
+}
+
+div {
+  border: 1px solid rgb(240, 108, 108);
 }

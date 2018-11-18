@@ -13,11 +13,12 @@ tags:
     - content
     - post
     - post format
+header: no
 image:
     title: gallery-example-1.jpg
     caption: Unsplash.com
     caption_url: http://unsplash.com
-author: Eddie Brady
+author: eddiebrady
 ---
 
 What we do

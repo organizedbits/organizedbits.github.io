@@ -17,4 +17,9 @@ bundle install
 
 # bundle exec jekyll serve
 bundle exec jekyll serve --watch
+
+bundle exec jekyll serve --watch --incremental --config _config.yml,_config_dev.yml
+
 http://127.0.0.1:4000
+
+
